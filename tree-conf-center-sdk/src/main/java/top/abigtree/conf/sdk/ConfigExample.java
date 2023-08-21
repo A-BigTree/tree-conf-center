@@ -15,7 +15,7 @@ import java.util.concurrent.Executor;
  */
 public class ConfigExample {
     public static void main(String[] args) throws InterruptedException, NacosException {
-        String serverAddr = "172.26.15.24";
+        String serverAddr = "120.55.72.232";
         String dataId = "tree.conf.test";
         String group = "DEFAULT_GROUP";
         Properties properties = new Properties();
@@ -36,5 +36,6 @@ public class ConfigExample {
                 return null;
             }
         });
+        Thread.sleep(200000);
     }
 }
