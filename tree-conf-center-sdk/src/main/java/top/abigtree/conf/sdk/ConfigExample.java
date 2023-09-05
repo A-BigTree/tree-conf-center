@@ -15,7 +15,7 @@ import java.util.concurrent.Executor;
  */
 public class ConfigExample {
     public static void main(String[] args) throws InterruptedException, NacosException {
-        String serverAddr = "120.55.72.232";
+        String serverAddr = "ipAddress";
         String dataId = "tree.conf.test";
         String group = "DEFAULT_GROUP";
         Properties properties = new Properties();
