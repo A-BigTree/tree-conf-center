@@ -1,13 +1,19 @@
 package top.abigtree.conf.sdk.db;
 
+import lombok.Data;
+
 /**
  * @author Shuxin Wang <shuxinwang662@gmail.com>
  * Created on 2023/10/7
  */
+
+@Data
 public abstract class DatabaseConfig {
-    private String host;
+    protected static String group;
 
-    private int port;
+    protected String host;
 
-    
+    protected int port;
+
+
 }

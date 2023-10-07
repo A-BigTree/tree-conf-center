@@ -4,5 +4,10 @@ package top.abigtree.conf.sdk.db;
  * @author Shuxin Wang <shuxinwang662@gmail.com>
  * Created on 2023/10/7
  */
-public class RedisConfig {
+public class RedisConfig extends DatabaseConfig{
+
+
+    static {
+        group = "REDIS";
+    }
 }
