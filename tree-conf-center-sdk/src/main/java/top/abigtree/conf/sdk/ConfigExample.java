@@ -36,5 +36,6 @@ public class ConfigExample {
                 return null;
             }
         });
+        Thread.sleep(300000);
     }
 }
